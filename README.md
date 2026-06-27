@@ -1,4 +1,4 @@
-# Day 6 — Hybrid RAG Retriever
+# Day 6 : Hybrid RAG Retriever
 
 FastAPI service implementing hybrid document retrieval combining dense vector search (FAISS) and sparse keyword search (BM25).
 
@@ -12,8 +12,8 @@ FastAPI service implementing hybrid document retrieval combining dense vector se
 
 ## Endpoints
 
-- POST /retrieve — takes a query string, returns top-k chunks with scores and latency
-- GET /health — health check
+- POST /retrieve : takes a query string, returns top-k chunks with scores and latency
+- GET /health : health check
 
 ## Running locally
 
